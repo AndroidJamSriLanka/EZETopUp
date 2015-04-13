@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="ezetopup.thuan.ezetopup.Select_Service_Provider"
+    android:background="@drawable/background1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:id="@+id/Dialog"
+            android:layout_marginTop="76dp"
+            android:background="#ed1c24"
+            android:src="@drawable/dialog_logo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/Hutch"
+            android:layout_alignEnd="@+id/Hutch"
+            android:layout_weight="0.20" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:id="@+id/Mobitel"
+            android:background="#291f62"
+            android:layout_below="@+id/Dialog"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/Dialog"
+            android:layout_alignEnd="@+id/Dialog"
+            android:src="@drawable/mobitel_logo"
+            android:layout_weight="0.20" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:id="@+id/Etisalat"
+            android:background="#c3d020"
+            android:layout_below="@+id/Mobitel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/Mobitel"
+            android:layout_alignEnd="@+id/Mobitel"
+            android:src="@drawable/etisalat_logo"
+            android:layout_weight="0.20" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:id="@+id/Hutch"
+            android:background="#fb7c00"
+            android:layout_below="@+id/Etisalat"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/hutch_logo"
+            android:layout_weight="0.20" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:id="@+id/Airtel"
+            android:background="#f11926"
+            android:layout_below="@+id/Hutch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/Hutch"
+            android:layout_alignEnd="@+id/Hutch"
+            android:src="@drawable/airtel_logo"
+            android:layout_weight="0.20" />
+    </LinearLayout>
+
+</RelativeLayout>
